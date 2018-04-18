@@ -1,0 +1,130 @@
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+body {
+	background-color: #070756;
+}
+
+#header{
+height: 150px;
+background-color: red;
+width: 95%;
+line-height: 150px;
+border-radius: 20px;
+border-color: red;
+margin-left: 2.5%;
+margin-top: 30px;
+}
+
+#header h1 {
+
+font-size: 2em;
+color: white;
+margin-left: 20px;
+
+}
+
+
+#main_content{
+ height: 600px;
+ width: 95%;
+ 
+ margin-left: auto;
+ margin-right: auto;	
+ margin-top: 20px;	
+ margin-bottom: 120px;
+}
+
+.left {
+	width:20%;
+	margin-left: 0px;	
+	background-color: #2e6d6d;
+	height: 300px;
+	border-radius: 20px;
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.right {
+	width: 78%;
+	margin-left: 20px;	
+	margin-right: 0px;
+	background-color: black;
+	height: auto;
+	border-radius: 20px;
+	display: inline-block;
+}
+
+.right h1 {
+	color: white;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.right p {
+	margin-top: 20px;
+	color: white;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#footer {
+	margin-top: 60px;
+	background-color: gray;	
+	height: 100px;
+	width: 95%;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 100px;
+	color: white;
+	font-size: 1em;
+}
+
+#footer p {
+	display: inline-block;
+	height: 100px;
+	font-size: 1em;
+	margin-left: 20px;
+}
+
+#footer a {
+	color:#2e6d6d;
+	margin-left: 10px;
+
+}
+
+ul.sub {
+    margin-left: 20px;
+    color: white;
+}	
+
+li.home {
+    list-style: none;
+    font-size:  1em;
+    margin-left: -30px;
+}
+
+#main_content ul#root {
+    width: 100%;
+    display:  inline-block;
+    margin-left: 50px;
+    vertical-align: top;
+    margin-top: 30px;
+    color: white;
+}
+
+ul#subright{
+	margin-left: 40px;
+	color: white;
+	margin-top: 40px;
+	
+}
+
+#subright .paragraph {
+	margin-left: -5px;
+}
